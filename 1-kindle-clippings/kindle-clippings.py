@@ -3,7 +3,7 @@
 import os
 import codecs
 
-FOLDER_DIR = '/Volumes/Kindle/documents/'
+FOLDER_DIR = '/Volumes/Kindle/documents/' # MAC FOLDER DIR
 CLIPPINGS_FILE = os.path.join(FOLDER_DIR, 'My Clippings.txt')
 
 def _get_content():

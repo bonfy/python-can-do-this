@@ -31,14 +31,14 @@
 import os
 import codecs
 
-CLIPPINGS_FILE = 'My Clippings.txt'
+FOLDER_DIR = '/Volumes/Kindle/documents/' # MAC下的文件夹地址
+CLIPPINGS_FILE = os.path.join(FOLDER_DIR, 'My Clippings.txt')
 
 def _get_content():
     """ Get content from My Clippings.txt
     """
-    if not os.path.exists(CLIPPINGS_FILE):
-        assert 'Error! Can not find the Clippings.txt'
-    with codecs.open('My Clippings.txt', encoding='utf-8') as f:
+    assert os.path.exists(CLIPPINGS_FILE)
+    with codecs.open(CLIPPINGS_FILE, encoding='utf-8') as f:
         content = f.read()
     return content
 
@@ -79,4 +79,6 @@ if __name__ == '__main__':
 
 ## 友情提醒
 
-导出来的 markdown 文件建议 copy 导其他文件夹再编辑，一面辛辛苦苦地排版半天，下次导出又全部覆盖掉，别说我没提醒你哦
+1. 请记得先把Kindle连上电脑
+2. 此程序在mac下面能够正常运行，Windows下面请修改 `FOLDER_DIR`
+3. 导出来的 markdown 文件建议 copy 导其他文件夹再编辑，一面辛辛苦苦地排版半天，下次导出又全部覆盖掉，别说我没提醒你哦
