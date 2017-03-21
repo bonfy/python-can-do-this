@@ -11,7 +11,7 @@
 
 | No.  | Title  | Type  |
 | :-------------------:  | :-------------------:  | :-------------------:  |
-| 1 | kindle-clippings - 将kindle的读书批注自动导出 | FileIO |
+| 1 | [kindle-clippings - 将kindle的读书批注自动导出](https://github.com/bonfy/python-can-do-this/tree/master/1-kindle-clippings) | FileIO |
 
 
 ## Why
