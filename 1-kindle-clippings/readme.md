@@ -75,6 +75,14 @@ if __name__ == '__main__':
 
 ## 实现结果
 
+直接command输入运行
+
+```cmd
+$ python3 kindle-clippings.py
+```
+
+结果：
+
 ![图四](http://bonfy.qiniudn.com/kindle-4.png)
 
 ## 友情提醒
