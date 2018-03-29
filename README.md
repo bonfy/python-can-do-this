@@ -54,4 +54,4 @@
 
 如果你觉得我写的东西对你有用，不妨请我喝杯咖啡
 
-![支持我](http://7i7k6w.com1.z0.glb.clouddn.com/weixin_alipay.jpg)
+![支持我](http://7i7k6w.com1.z0.glb.clouddn.com/weixin_alipay_new.jpg)
