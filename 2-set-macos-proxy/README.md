@@ -93,6 +93,10 @@ if __name__ == '__main__':
 
 ```
 
+### 写在最后
+
+当然你要说，这个用 `bash` 实现更方便的话，我也完全没有意见
+
 ### 参考
 
 * https://gist.github.com/jordelver/3073101
