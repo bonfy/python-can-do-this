@@ -41,7 +41,7 @@ $ networksetup -listallnetworkservices
 $ networksetup -listnetworkserviceorder
 ```
 
-## 代码
+### 代码
 
 ```python
 # coding: utf-8
@@ -93,3 +93,7 @@ if __name__ == '__main__':
 
 ```
 
+### 参考
+
+* https://gist.github.com/jordelver/3073101
+* https://stackoverflow.com/questions/39904647/how-to-set-proxy-settings-on-macos-using-python
