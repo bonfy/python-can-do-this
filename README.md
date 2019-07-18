@@ -12,7 +12,7 @@
 | No.  | Title  | Type  | Author |
 | :-------------------:  | :-------------------:  | :-------------------:  | :-------------------:  |
 | 1 | [kindle-clippings - 将kindle的读书批注自动导出](https://github.com/bonfy/python-can-do-this/tree/master/1-kindle-clippings) | FileIO | [BONFY](https://github.com/bonfy) |
-| 2 | [set-macos-proxy - 设置MACOS代理](https://github.com/bonfy/python-can-do-this/tree/master/2-set-macos-proxy) | System | [BONFY](https://github.com/bonfy) |
+| 2 | [set-macos-proxy - 设置 Mac OS 系统代理](https://github.com/bonfy/python-can-do-this/tree/master/2-set-macos-proxy) | System | [BONFY](https://github.com/bonfy) |
 
 ## Why
 
