@@ -1,11 +1,11 @@
+# coding: utf-8
+
 import os
 import sys
-
 
 PROXY = os.getenv('WORK_PROXY', 'localhost')
 PORT = os.getenv('WORK_PORT', 8080)
 NET = 'Wi-Fi'
-
 TYPS = ['web', 'secureweb', 'socksfirewall']
 
 def proxy_setting(proxy, port):
@@ -14,7 +14,6 @@ def proxy_setting(proxy, port):
         cmd = f'networksetup -set{w}proxy {NET} {proxy} {port}'
         print(cmd)
         os.system(cmd)
-
 
 def proxy_switch(key='off'):
     # Turn proxy on or off
