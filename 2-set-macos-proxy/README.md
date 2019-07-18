@@ -1,4 +1,4 @@
-## MACOS SET PROXY
+## MacOS SET PROXY
 
 ### 缘起
 
